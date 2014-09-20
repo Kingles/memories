@@ -30,6 +30,8 @@
     "requirejs": "~2.1.15",
     "angular-cookies": "~1.2.25",
     "font-awesome": "~4.2.0",
-    "bootstrap-sass-official": "~3.2.0+2"
+    "bootstrap-sass-official": "~3.2.0+2",
+    "pouchdb": "~3.0.5",
+    "es5-shim": "~4.0.3"
   }
 }

@@ -26,15 +26,17 @@
   };
 
   var require_config = {
-    "baseUrl": "/base/src/app",
-    "deps": ["angular", "angular-mocks", "sinon", "angular-resource", "jasmine-sinon"],
+    "baseUrl": "/base/app",
+    "deps": ["angular", "angular-mocks", "sinon", "angular-resource", "jasmine-sinon", "es5-shim"],
     "paths": {
       "angular": "vendor/angular/angular",
       "angular-ui-router": "vendor/angular-ui-router/angular-ui-router",
       "angular-resource": "vendor/angular-resource/angular-resource",
       "angular-mocks": "vendor/angular-mocks/angular-mocks",
+      "es5-shim": "vendor/es5-shim/es5-shim",
       "sinon": "vendor/sinon/lib/sinon",
-      "jasmine-sinon": "vendor/jasmine-sinon/lib/jasmine-sinon"
+      "jasmine-sinon": "vendor/jasmine-sinon/lib/jasmine-sinon",
+      "pouchdb": "vendor/pouchdb/dist/pouchdb"
     },
     "shim": {
       "angular-mocks": ["angular"],
